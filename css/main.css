@@ -1,0 +1,176 @@
+/* Colors */
+.text-primary-color {
+    color: #FF7F50;
+  }
+  
+  .text-secondary-color {
+    color: #2D3638;
+  }
+  
+  .text-white-color {
+    color: #ffffff;
+  }
+
+  .bg-primary-color {
+    background-color: #FF7F50;
+  }
+  
+  .bg-secondary-color {
+    background-color: #2D3638;
+  }
+  
+  .bg-light-gray {
+    background-color: #EAEAEA;
+  }
+
+
+  /* Fonts */
+.font-heading {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  .font-subheading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+
+  .font-body {
+    font-family: 'Leelawadee UI', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .font-button {
+    font-family: 'PT Sans', sans-serif;
+  }
+
+
+  /* Button */
+  .btn-rounded {
+    border-radius: 30px;
+    padding: 0.6rem 0;
+    max-width: 250px;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+/* Button animation from Hover.css */
+.btn.bg-primary-color {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn.bg-primary-color:hover,
+  .btn.bg-primary-color:focus,
+  .btn.bg-primary-color:active {
+    background-color: #2D3638; 
+    color: #ffffff;
+  }
+
+
+.btn.bg-secondary-color {
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    border: 2px solid transparent;
+  }
+
+  .btn.bg-secondary-color:hover,
+  .btn.bg-secondary-color:focus,
+  .btn.bg-secondary-color:active {
+    background-color: #FF7F50; 
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+  
+/* Images */
+  .adoptable-pet-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+  }
+
+  .section-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+  }
+
+  .hero-dog-img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    object-position: right;
+  }
+
+/* =============================================== Media ============================================================================================================================== */
+
+@media (min-width: 768px) {
+  
+  .adoptable-pet-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+  }
+
+  .section-image {
+    width: auto;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+  }
+  
+}
+
+  @media (min-width: 992px) {
+    .font-heading {
+      font-size: 3rem;
+    }
+  
+    .font-body {
+      font-size: 1.1rem;
+    }
+  
+    .font-button {
+      font-size: 1.5rem;
+    }
+  
+    .font-subheading {
+      font-size: 2.5rem;
+    }
+
+    .adoptable-pet-img {
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      border-radius: 1.5rem;
+    }
+
+    .section-image {
+      width:100%;
+      height:100%;
+      border-radius: 1.5rem;
+    }
+
+  }
+
+  @media (min-width: 1200px) {
+    .font-heading {
+      font-size: 4rem;
+    }
+
+    .font-body {
+      font-size: 1.3rem;
+    }
+  
+    .font-button {
+      font-size: 1.5rem;
+    }
+  
+    .font-subheading {
+      font-size: 2.5rem;
+    }
+  }
