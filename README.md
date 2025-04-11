@@ -29,3 +29,4 @@
 
 ### Tools:
 - **Figma** – Used for designing wireframes and mockups.
+- **Chat GPT** - AI tools were used and allowed in the UX/UI creation of the project for writing content in the prototype and high fidelity wireframes.
